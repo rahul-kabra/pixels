@@ -8,7 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class NarutoCharactersBaseComponent implements OnInit {
 
   @Input()
-  character: {};
+  character = {
+    alphabet: "",
+    name: "",
+    realName: "",
+    association: "",
+    quote: "",
+    description: "",
+    prev: "",
+    next: ""
+  }
   constructor() { }
 
   ngOnInit() {
