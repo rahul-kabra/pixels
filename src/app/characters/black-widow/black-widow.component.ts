@@ -23,7 +23,7 @@ export class BlackWidowComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "black-widow",
     style.rel = "stylesheet",
-    style.href = "../assets/black-widow.css";
+    style.href = "assets/black-widow.css";
     head.appendChild(style);
   }
 

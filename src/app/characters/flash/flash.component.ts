@@ -23,7 +23,7 @@ export class FlashComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "flash",
     style.rel = "stylesheet",
-    style.href = "../assets/flash.css";
+    style.href = "assets/flash.css";
     head.appendChild(style);
   }
 

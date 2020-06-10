@@ -23,7 +23,7 @@ export class ThanosComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "thanos",
     style.rel = "stylesheet",
-    style.href = "../assets/thanos.css";
+    style.href = "assets/thanos.css";
     head.appendChild(style);
   }
 

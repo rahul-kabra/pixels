@@ -23,7 +23,7 @@ export class IronmanComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "ironman",
     style.rel = "stylesheet",
-    style.href = "../assets/ironman.css";
+    style.href = "assets/ironman.css";
     head.appendChild(style);
   }
 

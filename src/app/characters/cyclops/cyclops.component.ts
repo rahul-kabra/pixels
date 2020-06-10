@@ -23,7 +23,7 @@ export class CyclopsComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "cyclops",
     style.rel = "stylesheet",
-    style.href = "../assets/cyclops.css";
+    style.href = "assets/cyclops.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class StormComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "storm",
     style.rel = "stylesheet",
-    style.href = "../assets/storm.css";
+    style.href = "assets/storm.css";
     head.appendChild(style);
   }
 

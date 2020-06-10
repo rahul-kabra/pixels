@@ -23,7 +23,7 @@ export class HawkgirlComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "hawkgirl",
     style.rel = "stylesheet",
-    style.href = "../assets/hawkgirl.css";
+    style.href = "assets/hawkgirl.css";
     head.appendChild(style);
   }
 

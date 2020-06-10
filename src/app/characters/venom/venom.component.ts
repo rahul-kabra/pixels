@@ -23,7 +23,7 @@ export class VenomComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "venom",
     style.rel = "stylesheet",
-    style.href = "../assets/venom.css";
+    style.href = "assets/venom.css";
     head.appendChild(style);
   }
 

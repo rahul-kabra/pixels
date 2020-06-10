@@ -23,7 +23,7 @@ export class JeanGreyComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "jean-grey",
     style.rel = "stylesheet",
-    style.href = "../assets/jean-grey.css";
+    style.href = "assets/jean-grey.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class EmmaFrostComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "emma-frost",
     style.rel = "stylesheet",
-    style.href = "../assets/emma-frost.css";
+    style.href = "assets/emma-frost.css";
     head.appendChild(style);
   }
 

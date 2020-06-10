@@ -23,7 +23,7 @@ export class CaptainAmericaComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "captain-america",
     style.rel = "stylesheet",
-    style.href = "../assets/captain-america.css";
+    style.href = "assets/captain-america.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class WolverineComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "wolverine",
     style.rel = "stylesheet",
-    style.href = "../assets/wolverine.css";
+    style.href = "assets/wolverine.css";
     head.appendChild(style);
   }
 

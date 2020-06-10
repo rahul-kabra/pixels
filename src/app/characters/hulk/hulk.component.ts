@@ -23,7 +23,7 @@ export class HulkComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "hulk",
     style.rel = "stylesheet",
-    style.href = "../assets/hulk.css";
+    style.href = "assets/hulk.css";
     head.appendChild(style);
   }
 

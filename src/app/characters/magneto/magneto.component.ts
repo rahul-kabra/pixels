@@ -23,7 +23,7 @@ export class MagnetoComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "magneto",
     style.rel = "stylesheet",
-    style.href = "../assets/magneto.css";
+    style.href = "assets/magneto.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class WonderWomanComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "wonder-woman",
     style.rel = "stylesheet",
-    style.href = "../assets/wonder-woman.css";
+    style.href = "assets/wonder-woman.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class KakashiHatakeComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "kakashi-hatake",
     style.rel = "stylesheet",
-    style.href = "../assets/kakashi-hatake.css";
+    style.href = "assets/kakashi-hatake.css";
     head.appendChild(style);
   }
 

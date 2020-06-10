@@ -23,7 +23,7 @@ export class WarMachineComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "war-machine",
     style.rel = "stylesheet",
-    style.href = "../assets/war-machine.css";
+    style.href = "assets/war-machine.css";
     head.appendChild(style);
   }
 

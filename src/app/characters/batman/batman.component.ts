@@ -23,7 +23,7 @@ export class BatmanComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "batman",
     style.rel = "stylesheet",
-    style.href = "../assets/batman.css";
+    style.href = "assets/batman.css";
     head.appendChild(style);
   }
 

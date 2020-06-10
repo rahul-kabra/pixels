@@ -23,7 +23,7 @@ export class ZatannaComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "zatanna",
     style.rel = "stylesheet",
-    style.href = "../assets/zatanna.css";
+    style.href = "assets/zatanna.css";
     head.appendChild(style);
   }
 

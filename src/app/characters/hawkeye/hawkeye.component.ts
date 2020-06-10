@@ -23,7 +23,7 @@ export class HawkeyeComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "hawkeye",
     style.rel = "stylesheet",
-    style.href = "../assets/hawkeye.css";
+    style.href = "assets/hawkeye.css";
     head.appendChild(style);
   }
 

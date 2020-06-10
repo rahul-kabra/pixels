@@ -23,7 +23,7 @@ export class MartianManhunterComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "martian-manhunter",
     style.rel = "stylesheet",
-    style.href = "../assets/martian-manhunter.css";
+    style.href = "assets/martian-manhunter.css";
     head.appendChild(style);
   }
 

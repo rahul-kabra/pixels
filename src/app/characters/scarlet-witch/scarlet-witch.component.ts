@@ -23,7 +23,7 @@ export class ScarletWitchComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "scarlet-witch",
     style.rel = "stylesheet",
-    style.href = "../assets/scarlet-witch.css";
+    style.href = "assets/scarlet-witch.css";
     head.appendChild(style);
   }
 

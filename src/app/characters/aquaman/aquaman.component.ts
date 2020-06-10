@@ -23,7 +23,7 @@ export class AquamanComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "aquaman",
     style.rel = "stylesheet",
-    style.href = "../assets/aquaman.css";
+    style.href = "assets/aquaman.css";
     head.appendChild(style);
   }
 

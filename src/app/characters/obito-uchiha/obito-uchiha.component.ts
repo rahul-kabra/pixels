@@ -23,7 +23,7 @@ export class ObitoUchihaComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "obito-uchiha",
     style.rel = "stylesheet",
-    style.href = "../assets/obito-uchiha.css";
+    style.href = "assets/obito-uchiha.css";
     head.appendChild(style);
   }
 

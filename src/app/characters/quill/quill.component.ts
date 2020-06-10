@@ -23,7 +23,7 @@ export class QuillComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "quill",
     style.rel = "stylesheet",
-    style.href = "../assets/quill.css";
+    style.href = "assets/quill.css";
     head.appendChild(style);
   }
 

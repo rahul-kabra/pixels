@@ -23,7 +23,7 @@ export class LokiComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "loki",
     style.rel = "stylesheet",
-    style.href = "../assets/loki.css";
+    style.href = "assets/loki.css";
     head.appendChild(style);
   }
 

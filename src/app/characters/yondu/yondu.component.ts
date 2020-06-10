@@ -23,7 +23,7 @@ export class YonduComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "yondu",
     style.rel = "stylesheet",
-    style.href = "../assets/yondu.css";
+    style.href = "assets/yondu.css";
     head.appendChild(style);
   }
 

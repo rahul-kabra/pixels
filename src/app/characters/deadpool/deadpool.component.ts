@@ -23,7 +23,7 @@ export class DeadpoolComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "deadpool",
     style.rel = "stylesheet",
-    style.href = "../assets/deadpool.css";
+    style.href = "assets/deadpool.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class NarutoUzumakiComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "naruto-uzumaki",
     style.rel = "stylesheet",
-    style.href = "../assets/naruto-uzumaki.css";
+    style.href = "assets/naruto-uzumaki.css";
     head.appendChild(style);
   }
 

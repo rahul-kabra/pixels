@@ -23,7 +23,7 @@ export class SupermanComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "superman",
     style.rel = "stylesheet",
-    style.href = "../assets/superman.css";
+    style.href = "assets/superman.css";
     head.appendChild(style);
   }
 

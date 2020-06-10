@@ -23,7 +23,7 @@ export class RogueComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "rogue",
     style.rel = "stylesheet",
-    style.href = "../assets/rogue.css";
+    style.href = "assets/rogue.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class PeterParkerComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "peter-parker",
     style.rel = "stylesheet",
-    style.href = "../assets/peter-parker.css";
+    style.href = "assets/peter-parker.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class SasukeUchihaComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "sasuke-uchiha",
     style.rel = "stylesheet",
-    style.href = "../assets/sasuke-uchiha.css";
+    style.href = "assets/sasuke-uchiha.css";
     head.appendChild(style);
   }
 

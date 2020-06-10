@@ -23,7 +23,7 @@ export class AntManComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "ant-man",
     style.rel = "stylesheet",
-    style.href = "../assets/ant-man.css";
+    style.href = "assets/ant-man.css";
     head.appendChild(style);
   }
 

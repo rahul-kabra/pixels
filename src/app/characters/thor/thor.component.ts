@@ -23,7 +23,7 @@ export class ThorComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "thor",
     style.rel = "stylesheet",
-    style.href = "../assets/thor.css";
+    style.href = "assets/thor.css";
     head.appendChild(style);
   }
 

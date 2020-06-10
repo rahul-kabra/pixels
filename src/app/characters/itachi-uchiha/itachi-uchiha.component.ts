@@ -23,7 +23,7 @@ export class ItachiUchihaComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "itachi-uchiha",
     style.rel = "stylesheet",
-    style.href = "../assets/itachi-uchiha.css";
+    style.href = "assets/itachi-uchiha.css";
     head.appendChild(style);
   }
 

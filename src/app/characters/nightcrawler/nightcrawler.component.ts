@@ -23,7 +23,7 @@ export class NightcrawlerComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "nightcrawler",
     style.rel = "stylesheet",
-    style.href = "../assets/nightcrawler.css";
+    style.href = "assets/nightcrawler.css";
     head.appendChild(style);
   }
 

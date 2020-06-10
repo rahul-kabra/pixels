@@ -23,7 +23,7 @@ export class BlackPantherComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "black-panther",
     style.rel = "stylesheet",
-    style.href = "../assets/black-panther.css";
+    style.href = "assets/black-panther.css";
     head.appendChild(style);
   }
 

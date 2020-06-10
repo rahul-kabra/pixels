@@ -23,7 +23,7 @@ export class VisionComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "vision",
     style.rel = "stylesheet",
-    style.href = "../assets/vision.css";
+    style.href = "assets/vision.css";
     head.appendChild(style);
   }
 

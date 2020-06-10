@@ -23,7 +23,7 @@ export class GreenLanternComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "green-lantern",
     style.rel = "stylesheet",
-    style.href = "../assets/green-lantern.css";
+    style.href = "assets/green-lantern.css";
     head.appendChild(style);
   }
 

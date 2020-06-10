@@ -23,7 +23,7 @@ export class FalconComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "falcon",
     style.rel = "stylesheet",
-    style.href = "../assets/falcon.css";
+    style.href = "assets/falcon.css";
     head.appendChild(style);
   }
 

@@ -23,7 +23,7 @@ export class DoctorStrangeComponent implements OnInit {
     const style = this.document.createElement("link");
     style.id = "doctor-strange",
     style.rel = "stylesheet",
-    style.href = "../assets/doctor-strange.css";
+    style.href = "assets/doctor-strange.css";
     head.appendChild(style);
   }
 
