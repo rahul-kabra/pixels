@@ -1,0 +1,62 @@
+<div id="main-container">
+    <header>
+      <label id="site-name">pixels<div id="dot"></div></label>
+    </header>
+    <div id="sidebar">
+        <div id="about">
+            <label><span class="underline"><a routerLink="/about">ABOUT</a></span></label>
+        </div>
+    </div>
+  
+    <footer>
+        <div id="made-by">
+            <p id="made">Pixelated with</p>
+            <div class="heart-container">
+              <div class="heart"></div>
+            </div>
+            <p id="by">by <a href="https://github.com/rahul-kabra" target="_blank">Rahul</a></p>
+        </div>
+    </footer>
+  
+    <div id="content">
+        <div id="character-alphabet">
+            <label>{{ character.alphabet }}</label>
+        </div>
+        <div id="character-name">
+          <span class="pop">{{ character.name }}</span>
+        </div>
+        <div id="memorable-quote">
+          <blockquote class="blockquote">
+              <p>{{ character.quote }}</p>
+          </blockquote>
+        </div>
+        <div id="association">
+            <label>{{ character.association }}</label>
+        </div>
+        <div id="design-curve-character">
+  
+        </div>
+        <div id="description">
+          <label>{{ character.description }}</label>
+        </div>
+        <div id="search">
+          <div id="nav">
+              <a routerLink="../{{character.prev}}"><button id="prev" class="arrow -small -left -color"></button></a>
+              <a routerLink="../{{character.next}}"><button id="next" class="arrow -small -right -color"></button></a>
+          </div>
+        </div>
+        <div id="next-character">
+  
+        </div>
+    </div>
+    <div id="right">
+      <div class="art">
+        <div>
+          
+        </div>
+      </div>
+      <div id="character-info">
+          <h1 class="heading heading--stroke heading--shadow">{{ character.realName }}</h1>
+      </div>
+    </div>
+  </div>
