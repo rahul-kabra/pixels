@@ -57,11 +57,11 @@ Our pixelated characters, alphabetically
 
 Don't believe it? Here's a sample. That's right. Our favourite Cap. 🤟
 
-![Captain America](https://github.com/rahul-kabra/pixels/blob/master/src/assets/Screenshot_CaptainAmerica.png)
+![Captain America](https://github.com/rahul-kabra/pixels/blob/master/src/assets/screenshots/Screenshot_CaptainAmerica.png)
 
 
 
-Check out rest of the [screenshots](https://github.com/rahul-kabra/pixels/tree/master/src/assets) and be amazed. 🤩
+Check out rest of the [screenshots](https://github.com/rahul-kabra/pixels/tree/master/src/assets/screenshots) and be amazed. 🤩
 
 That's all folks! Go, pixels. 😊
 

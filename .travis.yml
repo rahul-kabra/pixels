@@ -11,6 +11,8 @@ install:
 
 script:
   - npm run-script build
+  - cd dist/Pixels
+  - cp index.html 404.html
 
 deploy:
   provider: pages
