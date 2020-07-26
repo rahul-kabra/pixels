@@ -49,7 +49,7 @@ footer {
   grid-template-rows: repeat(5, 1fr);
 }
 
-#right{
+#right {
   grid-row: 1 / 6;
   grid-column: 5 / 7;
   display: grid;
@@ -128,6 +128,7 @@ footer {
   padding: 10px;
   position: relative;
 }
+
 .blockquote p {
   font-size: 13px;
   font-weight: 700px;
@@ -138,9 +139,9 @@ footer {
   position: absolute;
   font-family: 'FontAwesome';
   top: 0;
-  content:"\f10d";
+  content: "\f10d";
   font-size: 80px;
-  color: rgba(0,0,0,0.1);
+  color: rgba(0, 0, 0, 0.1);
 }
 
 .blockquote::after {
@@ -155,8 +156,8 @@ footer {
 
 .pop {
   transform: translate(-50%, -50%);
-  font-size:30px;
-  letter-spacing:0.1em;
+  font-size: 30px;
+  letter-spacing: 0.1em;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
 }
@@ -167,6 +168,7 @@ footer {
   letter-spacing: 6px;
   text-align: center;
 }
+
 .heading--stroke {
   -webkit-text-stroke-width: 2px;
   color: transparent;
@@ -201,10 +203,11 @@ footer {
   left: -0.2em;
   width: 0.2em;
   height: 0.2em;
-  box-shadow: 0.2em 0.2em transparent,0.4em 0.2em transparent,0.6em 0.2em pink,0.8em 0.2em pink,1em 0.2em pink,1.2em 0.2em transparent,1.4em 0.2em transparent,1.6em 0.2em transparent,1.8em 0.2em pink,2em 0.2em pink,2.2em 0.2em pink,2.4em 0.2em transparent,2.6em 0.2em transparent,0.2em 0.4em transparent,0.4em 0.4em pink,0.6em 0.4em #bf0024,0.8em 0.4em #bf0024,1em 0.4em #bf0024,1.2em 0.4em pink,1.4em 0.4em transparent,1.6em 0.4em pink,1.8em 0.4em maroon,2em 0.4em maroon,2.2em 0.4em maroon,2.4em 0.4em pink,2.6em 0.4em transparent,0.2em 0.6em pink,0.4em 0.6em #bf0024,0.6em 0.6em #bf0024,0.8em 0.6em white,1em 0.6em #bf0024,1.2em 0.6em #bf0024,1.4em 0.6em pink,1.6em 0.6em maroon,1.8em 0.6em maroon,2em 0.6em maroon,2.2em 0.6em maroon,2.4em 0.6em maroon,2.6em 0.6em pink,0.2em 0.8em pink,0.4em 0.8em #bf0024,0.6em 0.8em white,0.8em 0.8em white,1em 0.8em #bf0024,1.2em 0.8em #bf0024,1.4em 0.8em #bf0024,1.6em 0.8em #bf0024,1.8em 0.8em #bf0024,2em 0.8em #bf0024,2.2em 0.8em #bf0024,2.4em 0.8em maroon,2.6em 0.8em pink,0.2em 1em pink,0.4em 1em #bf0024,0.6em 1em white,0.8em 1em #bf0024,1em 1em #bf0024,1.2em 1em #bf0024,1.4em 1em #bf0024,1.6em 1em #bf0024,1.8em 1em #bf0024,2em 1em #bf0024,2.2em 1em maroon,2.4em 1em maroon,2.6em 1em pink,0.2em 1.2em transparent,0.4em 1.2em pink,0.6em 1.2em #bf0024,0.8em 1.2em #bf0024,1em 1.2em #bf0024,1.2em 1.2em #bf0024,1.4em 1.2em #bf0024,1.6em 1.2em #bf0024,1.8em 1.2em #bf0024,2em 1.2em maroon,2.2em 1.2em maroon,2.4em 1.2em pink,2.6em 1.2em transparent,0.2em 1.4em transparent,0.4em 1.4em pink,0.6em 1.4em #bf0024,0.8em 1.4em #bf0024,1em 1.4em #bf0024,1.2em 1.4em #bf0024,1.4em 1.4em #bf0024,1.6em 1.4em #bf0024,1.8em 1.4em #bf0024,2em 1.4em maroon,2.2em 1.4em maroon,2.4em 1.4em pink,2.6em 1.4em transparent,0.2em 1.6em transparent,0.4em 1.6em transparent,0.6em 1.6em pink,0.8em 1.6em #bf0024,1em 1.6em #bf0024,1.2em 1.6em #bf0024,1.4em 1.6em #bf0024,1.6em 1.6em #bf0024,1.8em 1.6em maroon,2em 1.6em maroon,2.2em 1.6em pink,2.4em 1.6em transparent,2.6em 1.6em transparent,0.2em 1.8em transparent,0.4em 1.8em transparent,0.6em 1.8em transparent,0.8em 1.8em pink,1em 1.8em #bf0024,1.2em 1.8em #bf0024,1.4em 1.8em #bf0024,1.6em 1.8em #bf0024,1.8em 1.8em maroon,2em 1.8em pink,2.2em 1.8em transparent,2.4em 1.8em transparent,2.6em 1.8em transparent,0.2em 2em transparent,0.4em 2em transparent,0.6em 2em transparent,0.8em 2em transparent,1em 2em pink,1.2em 2em #bf0024,1.4em 2em #bf0024,1.6em 2em maroon,1.8em 2em pink,2em 2em transparent,2.2em 2em transparent,2.4em 2em transparent,2.6em 2em transparent,0.2em 2.2em transparent,0.4em 2.2em transparent,0.6em 2.2em transparent,0.8em 2.2em transparent,1em 2.2em transparent,1.2em 2.2em pink,1.4em 2.2em #bf0024,1.6em 2.2em pink,1.8em 2.2em transparent,2em 2.2em transparent,2.2em 2.2em transparent,2.4em 2.2em transparent,2.6em 2.2em transparent,0.2em 2.4em transparent,0.4em 2.4em transparent,0.6em 2.4em transparent,0.8em 2.4em transparent,1em 2.4em transparent,1.2em 2.4em transparent,1.4em 2.4em pink,1.6em 2.4em transparent,1.8em 2.4em transparent,2em 2.4em transparent,2.2em 2.4em transparent,2.4em 2.4em transparent,2.6em 2.4em transparent;
+  box-shadow: 0.2em 0.2em transparent, 0.4em 0.2em transparent, 0.6em 0.2em pink, 0.8em 0.2em pink, 1em 0.2em pink, 1.2em 0.2em transparent, 1.4em 0.2em transparent, 1.6em 0.2em transparent, 1.8em 0.2em pink, 2em 0.2em pink, 2.2em 0.2em pink, 2.4em 0.2em transparent, 2.6em 0.2em transparent, 0.2em 0.4em transparent, 0.4em 0.4em pink, 0.6em 0.4em #bf0024, 0.8em 0.4em #bf0024, 1em 0.4em #bf0024, 1.2em 0.4em pink, 1.4em 0.4em transparent, 1.6em 0.4em pink, 1.8em 0.4em maroon, 2em 0.4em maroon, 2.2em 0.4em maroon, 2.4em 0.4em pink, 2.6em 0.4em transparent, 0.2em 0.6em pink, 0.4em 0.6em #bf0024, 0.6em 0.6em #bf0024, 0.8em 0.6em white, 1em 0.6em #bf0024, 1.2em 0.6em #bf0024, 1.4em 0.6em pink, 1.6em 0.6em maroon, 1.8em 0.6em maroon, 2em 0.6em maroon, 2.2em 0.6em maroon, 2.4em 0.6em maroon, 2.6em 0.6em pink, 0.2em 0.8em pink, 0.4em 0.8em #bf0024, 0.6em 0.8em white, 0.8em 0.8em white, 1em 0.8em #bf0024, 1.2em 0.8em #bf0024, 1.4em 0.8em #bf0024, 1.6em 0.8em #bf0024, 1.8em 0.8em #bf0024, 2em 0.8em #bf0024, 2.2em 0.8em #bf0024, 2.4em 0.8em maroon, 2.6em 0.8em pink, 0.2em 1em pink, 0.4em 1em #bf0024, 0.6em 1em white, 0.8em 1em #bf0024, 1em 1em #bf0024, 1.2em 1em #bf0024, 1.4em 1em #bf0024, 1.6em 1em #bf0024, 1.8em 1em #bf0024, 2em 1em #bf0024, 2.2em 1em maroon, 2.4em 1em maroon, 2.6em 1em pink, 0.2em 1.2em transparent, 0.4em 1.2em pink, 0.6em 1.2em #bf0024, 0.8em 1.2em #bf0024, 1em 1.2em #bf0024, 1.2em 1.2em #bf0024, 1.4em 1.2em #bf0024, 1.6em 1.2em #bf0024, 1.8em 1.2em #bf0024, 2em 1.2em maroon, 2.2em 1.2em maroon, 2.4em 1.2em pink, 2.6em 1.2em transparent, 0.2em 1.4em transparent, 0.4em 1.4em pink, 0.6em 1.4em #bf0024, 0.8em 1.4em #bf0024, 1em 1.4em #bf0024, 1.2em 1.4em #bf0024, 1.4em 1.4em #bf0024, 1.6em 1.4em #bf0024, 1.8em 1.4em #bf0024, 2em 1.4em maroon, 2.2em 1.4em maroon, 2.4em 1.4em pink, 2.6em 1.4em transparent, 0.2em 1.6em transparent, 0.4em 1.6em transparent, 0.6em 1.6em pink, 0.8em 1.6em #bf0024, 1em 1.6em #bf0024, 1.2em 1.6em #bf0024, 1.4em 1.6em #bf0024, 1.6em 1.6em #bf0024, 1.8em 1.6em maroon, 2em 1.6em maroon, 2.2em 1.6em pink, 2.4em 1.6em transparent, 2.6em 1.6em transparent, 0.2em 1.8em transparent, 0.4em 1.8em transparent, 0.6em 1.8em transparent, 0.8em 1.8em pink, 1em 1.8em #bf0024, 1.2em 1.8em #bf0024, 1.4em 1.8em #bf0024, 1.6em 1.8em #bf0024, 1.8em 1.8em maroon, 2em 1.8em pink, 2.2em 1.8em transparent, 2.4em 1.8em transparent, 2.6em 1.8em transparent, 0.2em 2em transparent, 0.4em 2em transparent, 0.6em 2em transparent, 0.8em 2em transparent, 1em 2em pink, 1.2em 2em #bf0024, 1.4em 2em #bf0024, 1.6em 2em maroon, 1.8em 2em pink, 2em 2em transparent, 2.2em 2em transparent, 2.4em 2em transparent, 2.6em 2em transparent, 0.2em 2.2em transparent, 0.4em 2.2em transparent, 0.6em 2.2em transparent, 0.8em 2.2em transparent, 1em 2.2em transparent, 1.2em 2.2em pink, 1.4em 2.2em #bf0024, 1.6em 2.2em pink, 1.8em 2.2em transparent, 2em 2.2em transparent, 2.2em 2.2em transparent, 2.4em 2.2em transparent, 2.6em 2.2em transparent, 0.2em 2.4em transparent, 0.4em 2.4em transparent, 0.6em 2.4em transparent, 0.8em 2.4em transparent, 1em 2.4em transparent, 1.2em 2.4em transparent, 1.4em 2.4em pink, 1.6em 2.4em transparent, 1.8em 2.4em transparent, 2em 2.4em transparent, 2.2em 2.4em transparent, 2.4em 2.4em transparent, 2.6em 2.4em transparent;
 }
 
-#made, #by {
+#made,
+#by {
   margin: 10px;
   color: #fff;
 }
@@ -215,7 +218,7 @@ footer {
   position: relative;
 }
 
-#by > a:before {
+#by>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -229,8 +232,8 @@ footer {
   transition: .25s linear;
 }
 
-#by > a:hover:before,
-#by > a:focus:before {
+#by>a:hover:before,
+#by>a:focus:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -243,6 +246,7 @@ footer {
   position: relative;
   display: inline-block;
   cursor: pointer;
+
   &.-left {
     &::before {
       top: 2px;
@@ -254,6 +258,7 @@ footer {
       transform: rotate(135deg);
       box-shadow: 2px 2px 0, 3px 2px 0, 2px 3px 0, 3px 3px 0;
     }
+
     &::after {
       width: 0;
       height: 0;
@@ -278,6 +283,7 @@ footer {
       transform: rotate(-45deg);
       box-shadow: 2px 2px 0, 3px 2px 0, 2px 3px 0, 3px 3px 0;
     }
+
     &::after {
       width: 0;
       height: 0;
@@ -290,10 +296,11 @@ footer {
       transition: left .1s ease-out, bottom .1s ease-out, letter-spacing .1s ease-out;
     }
   }
-  
+
   &:hover,
   &:focus {
     outline: none;
+
     &::after {
       left: 1px;
     }
@@ -310,6 +317,7 @@ footer {
   &.-small {
     transform: scale(1);
   }
+
   &.-color {
     @include arrow();
   }
@@ -330,17 +338,17 @@ footer {
 
 @media screen and (min-width: 340px) and (max-width: 740px) {
   #main-container {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr) !important;
-      grid-template-rows: repeat(12, 120px) !important;
-      padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) !important;
+    grid-template-rows: repeat(12, 120px) !important;
+    padding: 30px;
   }
 
   header {
-      grid-row: 1 / 2 !important;
-      grid-column: 1 / 2 !important;
-      padding: 45px 0px !important;
-      font-size: 16px;
+    grid-row: 1 / 2 !important;
+    grid-column: 1 / 2 !important;
+    padding: 45px 0px !important;
+    font-size: 16px;
   }
 
   #site-name {
@@ -355,26 +363,26 @@ footer {
   }
 
   #sidebar {
-      grid-row: 1 / 2 !important;
-      grid-column: 2 / 6 !important;
-      font-size: 15px !important;
+    grid-row: 1 / 2 !important;
+    grid-column: 2 / 6 !important;
+    font-size: 15px !important;
   }
 
   #content {
-      grid-row: 2 / 7 !important;
-      grid-column: 1 / 6 !important;
-      border: none;
+    grid-row: 2 / 7 !important;
+    grid-column: 1 / 6 !important;
+    border: none;
   }
 
   #right {
-      grid-row: 7 / 12 !important;
-      grid-column: 1 / 6 !important;
-      border: none;
+    grid-row: 7 / 12 !important;
+    grid-column: 1 / 6 !important;
+    border: none;
   }
 
   footer {
-      grid-column: 1 / 6 !important;
-      grid-row: 12 / 13 !important;
+    grid-column: 1 / 6 !important;
+    grid-row: 12 / 13 !important;
   }
 
   #about {
@@ -477,6 +485,7 @@ footer {
   #association-label {
     font-size: 18px !important;
   }
+
   .heart {
     position: relative !important;
     left: 47% !important;
@@ -498,16 +507,16 @@ footer {
 
 @media screen and (min-width: 741px) and (max-width: 980px) {
   #main-container {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr) !important;
-      grid-template-rows: repeat(12, 120px) !important;
-      padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) !important;
+    grid-template-rows: repeat(12, 120px) !important;
+    padding: 30px;
   }
 
   header {
-      grid-row: 1 / 2 !important;
-      grid-column: 1 / 2 !important;
-      padding: 40px 5px !important;
+    grid-row: 1 / 2 !important;
+    grid-column: 1 / 2 !important;
+    padding: 40px 5px !important;
   }
 
   #site-name {
@@ -515,26 +524,26 @@ footer {
   }
 
   #sidebar {
-      grid-row: 1 / 2 !important;
-      grid-column: 2 / 6 !important;
-      font-size: 20px !important;
+    grid-row: 1 / 2 !important;
+    grid-column: 2 / 6 !important;
+    font-size: 20px !important;
   }
 
   #content {
-      grid-row: 2 / 7 !important;
-      grid-column: 1 / 6 !important;
-      border: none;
+    grid-row: 2 / 7 !important;
+    grid-column: 1 / 6 !important;
+    border: none;
   }
 
   #right {
-      grid-row: 7 / 12 !important;
-      grid-column: 1 / 6 !important;
-      border: none;
+    grid-row: 7 / 12 !important;
+    grid-column: 1 / 6 !important;
+    border: none;
   }
 
   footer {
-      grid-column: 1 / 6 !important;
-      grid-row: 12 / 13 !important;
+    grid-column: 1 / 6 !important;
+    grid-row: 12 / 13 !important;
   }
 
   #about {
@@ -555,34 +564,34 @@ footer {
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
   #main-container {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr) !important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) !important;
   }
 
   header {
-      grid-row: 1 / 2 !important;
-      grid-column: 1 / 2 !important;
-      padding: 40px 5px !important;
+    grid-row: 1 / 2 !important;
+    grid-column: 1 / 2 !important;
+    padding: 40px 5px !important;
   }
 
   #sidebar {
-      grid-row: 1 / 2 !important;
-      grid-column: 2 / 6 !important;
+    grid-row: 1 / 2 !important;
+    grid-column: 2 / 6 !important;
   }
 
   #content {
-      grid-row: 2 / 6 !important;
-      grid-column: 1 / 4 !important;
+    grid-row: 2 / 6 !important;
+    grid-column: 1 / 4 !important;
   }
 
   #right {
-      grid-row: 2 / 6 !important;
-      grid-column: 4 / 6 !important;
+    grid-row: 2 / 6 !important;
+    grid-column: 4 / 6 !important;
   }
 
   footer {
-      grid-row: 6 / 7 !important;
-      grid-column: 1 / 6 !important;
+    grid-row: 6 / 7 !important;
+    grid-column: 1 / 6 !important;
   }
 
   #about {
@@ -616,4 +625,4 @@ footer {
     left: 47% !important;
     margin-left: 0 !important;
   }
-} 
+}

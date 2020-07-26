@@ -49,6 +49,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "https://rahul-kabra.github.io/pixels/",
               "budgets": [
                 {
                   "type": "initial",
