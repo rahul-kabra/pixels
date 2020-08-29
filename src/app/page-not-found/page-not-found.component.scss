@@ -1,0 +1,27 @@
+.container {
+  padding-bottom: 100px;
+  background: #ffffff;
+}
+
+#page-not-found-div {
+  text-align: center;
+  position: relative;
+  top: 135px;
+}
+
+#back a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline {
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  background-image: linear-gradient(to right, #fa709a 0%, #bdf1f6 100%);
+  transition: background-size 0.25s ease-in;
+}
+
+.underline:hover {
+  background-size: 100% 88%;
+}

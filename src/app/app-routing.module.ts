@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { AntManComponent } from './characters//ant-man/ant-man.component';
+import { AntManComponent } from './characters/ant-man/ant-man.component';
 import { AquamanComponent } from './characters/aquaman/aquaman.component';
 import { BatmanComponent } from './characters/batman/batman.component';
 import { BlackPantherComponent } from './characters/black-panther/black-panther.component';
@@ -12,8 +11,8 @@ import { CyclopsComponent } from './characters/cyclops/cyclops.component';
 import { DeadpoolComponent } from './characters/deadpool/deadpool.component';
 import { DoctorStrangeComponent } from './characters/doctor-strange/doctor-strange.component';
 import { EmmaFrostComponent } from './characters/emma-frost/emma-frost.component';
-import { FalconComponent } from './characters/falcon/falcon.component';
 import { FlashComponent } from './characters/flash/flash.component';
+import { FalconComponent } from './characters/falcon/falcon.component';
 import { GreenLanternComponent } from './characters/green-lantern/green-lantern.component';
 import { HawkeyeComponent } from './characters/hawkeye/hawkeye.component';
 import { HawkgirlComponent } from './characters/hawkgirl/hawkgirl.component';
@@ -44,57 +43,60 @@ import { WolverineComponent } from './characters/wolverine/wolverine.component';
 import { WonderWomanComponent } from './characters/wonder-woman/wonder-woman.component';
 import { YonduComponent } from './characters/yondu/yondu.component';
 import { ZatannaComponent } from './characters/zatanna/zatanna.component';
+import { AboutComponent } from './about/about.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  { path: '', component: AboutComponent, pathMatch: 'full'},
-  { path: 'about', component: AboutComponent},
-  { path: 'character/ant-man', component: AntManComponent},
-  { path: 'character/aquaman', component: AquamanComponent},
-  { path: 'character/batman', component: BatmanComponent},
-  { path: 'character/black-panther', component: BlackPantherComponent},
-  { path: 'character/black-widow', component: BlackWidowComponent},
-  { path: 'character/captain-america', component: CaptainAmericaComponent},
-  { path: 'character/captain-marvel', component: CaptainMarvelComponent},
-  { path: 'character/cyclops', component: CyclopsComponent},
-  { path: 'character/deadpool', component: DeadpoolComponent},
-  { path: 'character/doctor-strange', component: DoctorStrangeComponent},
-  { path: 'character/emma-frost', component: EmmaFrostComponent},
-  { path: 'character/falcon', component: FalconComponent},
-  { path: 'character/flash', component: FlashComponent},
-  { path: 'character/green-lantern', component: GreenLanternComponent},
-  { path: 'character/hawkeye', component: HawkeyeComponent},
-  { path: 'character/hawkgirl', component: HawkgirlComponent},
-  { path: 'character/hulk', component: HulkComponent},
-  { path: 'character/ironman', component: IronmanComponent},
-  { path: 'character/itachi-uchiha', component: ItachiUchihaComponent},
-  { path: 'character/jean-grey', component: JeanGreyComponent},
-  { path: 'character/kakashi-hatake', component: KakashiHatakeComponent},
-  { path: 'character/loki', component: LokiComponent},
-  { path: 'character/magneto', component: MagnetoComponent},
-  { path: 'character/martian-manhunter', component: MartianManhunterComponent},
-  { path: 'character/naruto-uzumaki', component: NarutoUzumakiComponent},
-  { path: 'character/nightcrawler', component: NightcrawlerComponent},
-  { path: 'character/obito-uchiha', component: ObitoUchihaComponent},
-  { path: 'character/peter-parker', component: PeterParkerComponent},
-  { path: 'character/quill', component: QuillComponent},
-  { path: 'character/rogue', component: RogueComponent},
-  { path: 'character/sasuke-uchiha', component: SasukeUchihaComponent},
-  { path: 'character/scarlet-witch', component: ScarletWitchComponent},
-  { path: 'character/storm', component: StormComponent},
-  { path: 'character/superman', component: SupermanComponent},
-  { path: 'character/thanos', component: ThanosComponent},
-  { path: 'character/thor', component: ThorComponent},
-  { path: 'character/venom', component: VenomComponent},
-  { path: 'character/vision', component: VisionComponent},
-  { path: 'character/war-machine', component: WarMachineComponent},
-  { path: 'character/wolverine', component: WolverineComponent},
-  { path: 'character/wonder-woman', component: WonderWomanComponent},
-  { path: 'character/yondu', component: YonduComponent},
-  { path: 'character/zatanna', component: ZatannaComponent},
+  { path: '', redirectTo: '/about', pathMatch: 'full' },
+  { path: 'about', component: AboutComponent },
+  { path: 'character/ant-man', component: AntManComponent },
+  { path: 'character/aquaman', component: AquamanComponent },
+  { path: 'character/batman', component: BatmanComponent },
+  { path: 'character/black-panther', component: BlackPantherComponent },
+  { path: 'character/black-widow', component: BlackWidowComponent },
+  { path: 'character/captain-america', component: CaptainAmericaComponent },
+  { path: 'character/captain-marvel', component: CaptainMarvelComponent },
+  { path: 'character/cyclops', component: CyclopsComponent },
+  { path: 'character/deadpool', component: DeadpoolComponent },
+  { path: 'character/doctor-strange', component: DoctorStrangeComponent },
+  { path: 'character/emma-frost', component: EmmaFrostComponent },
+  { path: 'character/flash', component: FlashComponent },
+  { path: 'character/falcon', component: FalconComponent },
+  { path: 'character/green-lantern', component: GreenLanternComponent },
+  { path: 'character/hawkeye', component: HawkeyeComponent },
+  { path: 'character/hawkgirl', component: HawkgirlComponent },
+  { path: 'character/hulk', component: HulkComponent },
+  { path: 'character/ironman', component: IronmanComponent },
+  { path: 'character/itachi-uchiha', component: ItachiUchihaComponent },
+  { path: 'character/jean-grey', component: JeanGreyComponent },
+  { path: 'character/kakashi-hatake', component: KakashiHatakeComponent },
+  { path: 'character/loki', component: LokiComponent },
+  { path: 'character/magneto', component: MagnetoComponent },
+  { path: 'character/martian-manhunter', component: MartianManhunterComponent },
+  { path: 'character/naruto-uzumaki', component: NarutoUzumakiComponent },
+  { path: 'character/nightcrawler', component: NightcrawlerComponent },
+  { path: 'character/obito-uchiha', component: ObitoUchihaComponent },
+  { path: 'character/peter-parker', component: PeterParkerComponent },
+  { path: 'character/quill', component: QuillComponent },
+  { path: 'character/rogue', component: RogueComponent },
+  { path: 'character/sasuke-uchiha', component: SasukeUchihaComponent },
+  { path: 'character/scarlet-witch', component: ScarletWitchComponent },
+  { path: 'character/storm', component: StormComponent },
+  { path: 'character/superman', component: SupermanComponent },
+  { path: 'character/thanos', component: ThanosComponent },
+  { path: 'character/thor', component: ThorComponent },
+  { path: 'character/venom', component: VenomComponent },
+  { path: 'character/vision', component: VisionComponent },
+  { path: 'character/war-machine', component: WarMachineComponent },
+  { path: 'character/wolverine', component: WolverineComponent },
+  { path: 'character/wonder-woman', component: WonderWomanComponent },
+  { path: 'character/yondu', component: YonduComponent },
+  { path: 'character/zatanna', component: ZatannaComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
