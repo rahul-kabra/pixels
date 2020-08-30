@@ -1,10 +1,12 @@
 <div id="main-container">
   <header>
-    <label id="site-name">pixels<div id="dot"></div></label>
+    <label id="site-name">pixels<span id="dot"></span></label>
   </header>
   <div id="sidebar">
     <div id="about">
-      <label><span class="underline"><a routerLink="/about">ABOUT</a></span></label>
+      <label
+        ><span class="underline"><a routerLink="/about">ABOUT</a></span></label
+      >
     </div>
   </div>
 
@@ -14,7 +16,15 @@
       <div class="heart-container">
         <div class="heart"></div>
       </div>
-      <p id="by">by <a href="https://github.com/rahul-kabra" target="_blank" rel="noreferrer noopener">Rahul</a></p>
+      <p id="by">
+        by
+        <a
+          href="https://github.com/rahul-kabra"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Rahul</a
+        >
+      </p>
     </div>
   </footer>
 
@@ -33,30 +43,30 @@
     <div id="association">
       <label>{{ character.association }}</label>
     </div>
-    <div id="design-curve-character">
-
-    </div>
+    <div id="design-curve-character"></div>
     <div id="description">
       <label>{{ character.description }}</label>
     </div>
     <div id="search">
       <div id="nav">
-        <a routerLink="../{{character.prev}}"><button id="prev" class="arrow -small -left -color"></button></a>
-        <a routerLink="../{{character.next}}"><button id="next" class="arrow -small -right -color"></button></a>
+        <a routerLink="../{{ character.prev }}"
+          ><button id="prev" class="arrow -small -left -color"></button
+        ></a>
+        <a routerLink="../{{ character.next }}"
+          ><button id="next" class="arrow -small -right -color"></button
+        ></a>
       </div>
     </div>
-    <div id="next-character">
-
-    </div>
+    <div id="next-character"></div>
   </div>
   <div id="right">
     <div class="art">
-      <div>
-
-      </div>
+      <div></div>
     </div>
     <div id="character-info">
-      <h1 class="heading heading--stroke heading--shadow">{{ character.realName }}</h1>
+      <h1 class="heading heading--stroke heading--shadow">
+        {{ character.realName }}
+      </h1>
     </div>
   </div>
 </div>

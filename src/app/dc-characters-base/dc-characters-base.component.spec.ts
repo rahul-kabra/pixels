@@ -8,9 +8,8 @@ describe('DcCharactersBaseComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DcCharactersBaseComponent ]
-    })
-    .compileComponents();
+      declarations: [DcCharactersBaseComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

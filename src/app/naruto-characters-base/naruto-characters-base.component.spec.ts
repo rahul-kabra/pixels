@@ -8,9 +8,8 @@ describe('NarutoCharactersBaseComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NarutoCharactersBaseComponent ]
-    })
-    .compileComponents();
+      declarations: [NarutoCharactersBaseComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

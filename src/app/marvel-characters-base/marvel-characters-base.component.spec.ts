@@ -8,9 +8,8 @@ describe('MarvelCharactersBaseComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MarvelCharactersBaseComponent ]
-    })
-    .compileComponents();
+      declarations: [MarvelCharactersBaseComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
