@@ -10,7 +10,7 @@ install:
   - npm install
 
 script:
-  - npm run-script build --base-href /Pixels/
+  - npm run-script build --base-href /pixels/
   - cd dist/Pixels
   - cp index.html 404.html
 
