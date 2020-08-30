@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { MagnetoComponent } from './magneto.component';
+import { MagnetoComponent } from "./magneto.component";
 
-describe('MagnetoComponent', () => {
+describe("MagnetoComponent", () => {
   let component: MagnetoComponent;
   let fixture: ComponentFixture<MagnetoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MagnetoComponent ]
-    })
-    .compileComponents();
+      declarations: [MagnetoComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('MagnetoComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

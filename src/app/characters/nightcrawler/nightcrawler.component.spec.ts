@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { NightcrawlerComponent } from './nightcrawler.component';
+import { NightcrawlerComponent } from "./nightcrawler.component";
 
-describe('NightcrawlerComponent', () => {
+describe("NightcrawlerComponent", () => {
   let component: NightcrawlerComponent;
   let fixture: ComponentFixture<NightcrawlerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NightcrawlerComponent ]
-    })
-    .compileComponents();
+      declarations: [NightcrawlerComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('NightcrawlerComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

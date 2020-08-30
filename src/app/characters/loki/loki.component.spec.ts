@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { LokiComponent } from './loki.component';
+import { LokiComponent } from "./loki.component";
 
-describe('LokiComponent', () => {
+describe("LokiComponent", () => {
   let component: LokiComponent;
   let fixture: ComponentFixture<LokiComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LokiComponent ]
-    })
-    .compileComponents();
+      declarations: [LokiComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('LokiComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

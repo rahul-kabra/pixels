@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { EmmaFrostComponent } from './emma-frost.component';
+import { EmmaFrostComponent } from "./emma-frost.component";
 
-describe('EmmaFrostComponent', () => {
+describe("EmmaFrostComponent", () => {
   let component: EmmaFrostComponent;
   let fixture: ComponentFixture<EmmaFrostComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EmmaFrostComponent ]
-    })
-    .compileComponents();
+      declarations: [EmmaFrostComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('EmmaFrostComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

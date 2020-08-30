@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ScarletWitchComponent } from './scarlet-witch.component';
+import { ScarletWitchComponent } from "./scarlet-witch.component";
 
-describe('ScarletWitchComponent', () => {
+describe("ScarletWitchComponent", () => {
   let component: ScarletWitchComponent;
   let fixture: ComponentFixture<ScarletWitchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ScarletWitchComponent ]
-    })
-    .compileComponents();
+      declarations: [ScarletWitchComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('ScarletWitchComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

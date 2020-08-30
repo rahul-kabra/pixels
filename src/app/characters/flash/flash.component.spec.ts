@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { FlashComponent } from './flash.component';
+import { FlashComponent } from "./flash.component";
 
-describe('FlashComponent', () => {
+describe("FlashComponent", () => {
   let component: FlashComponent;
   let fixture: ComponentFixture<FlashComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlashComponent ]
-    })
-    .compileComponents();
+      declarations: [FlashComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('FlashComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

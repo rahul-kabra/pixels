@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ItachiUchihaComponent } from './itachi-uchiha.component';
+import { ItachiUchihaComponent } from "./itachi-uchiha.component";
 
-describe('ItachiUchihaComponent', () => {
+describe("ItachiUchihaComponent", () => {
   let component: ItachiUchihaComponent;
   let fixture: ComponentFixture<ItachiUchihaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ItachiUchihaComponent ]
-    })
-    .compileComponents();
+      declarations: [ItachiUchihaComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('ItachiUchihaComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

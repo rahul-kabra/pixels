@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { GreenLanternComponent } from './green-lantern.component';
+import { GreenLanternComponent } from "./green-lantern.component";
 
-describe('GreenLanternComponent', () => {
+describe("GreenLanternComponent", () => {
   let component: GreenLanternComponent;
   let fixture: ComponentFixture<GreenLanternComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GreenLanternComponent ]
-    })
-    .compileComponents();
+      declarations: [GreenLanternComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('GreenLanternComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

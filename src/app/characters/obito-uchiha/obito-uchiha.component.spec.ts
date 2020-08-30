@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ObitoUchihaComponent } from './obito-uchiha.component';
+import { ObitoUchihaComponent } from "./obito-uchiha.component";
 
-describe('ObitoUchihaComponent', () => {
+describe("ObitoUchihaComponent", () => {
   let component: ObitoUchihaComponent;
   let fixture: ComponentFixture<ObitoUchihaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ObitoUchihaComponent ]
-    })
-    .compileComponents();
+      declarations: [ObitoUchihaComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('ObitoUchihaComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
