@@ -1,0 +1,133 @@
+.art {
+    position: relative;
+    margin: 1em auto;
+    max-width: 800px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    width: 9.5em;
+    height: 20.5em;
+  }
+  .art:after {
+    content: "";
+    position: absolute;
+    top: -0.5em;
+    left: -0.5em;
+    width: 0.5em;
+    height: 0.5em;
+    box-shadow: 0.5em 0.5em #f8fcfb,1em 0.5em #f8fcfb,1.5em 0.5em #f8fcfb,2em 0.5em #f8fcfb,2.5em 0.5em #f8fcfb,3em 0.5em #f8fcfb,3.5em 0.5em #f8fcfb,4em 0.5em #f8fcfb,4.5em 0.5em #ae1c29,5em 0.5em #ae1c29,5.5em 0.5em #ae1c29,6em 0.5em #f8fcfb,6.5em 0.5em #f8fcfb,7em 0.5em #f8fcfb,7.5em 0.5em #f8fcfb,8em 0.5em #f8fcfb,8.5em 0.5em #f8fcfb,9em 0.5em #f8fcfb,9.5em 0.5em #f8fcfb,0.5em 1em #f8fcfb,1em 1em #f8fcfb,1.5em 1em #f8fcfb,2em 1em #f8fcfb,2.5em 1em #f8fcfb,3em 1em #f8fcfb,3.5em 1em #f8fcfb,4em 1em #f8fcfb,4.5em 1em #ae1c29,5em 1em #ae1c29,5.5em 1em #ae1c29,6em 1em #f8fcfb,6.5em 1em #f8fcfb,7em 1em #f8fcfb,7.5em 1em #f8fcfb,8em 1em #f8fcfb,8.5em 1em #f8fcfb,9em 1em #f8fcfb,9.5em 1em #f8fcfb,0.5em 1.5em #f8fcfb,1em 1.5em #f8fcfb,1.5em 1.5em #f8fcfb,2em 1.5em #f8fcfb,2.5em 1.5em #f8fcfb,3em 1.5em #f8fcfb,3.5em 1.5em #f8fcfb,4em 1.5em #f8fcfb,4.5em 1.5em #ae1c29,5em 1.5em #ae1c29,5.5em 1.5em #ae1c29,6em 1.5em #f8fcfb,6.5em 1.5em #f8fcfb,7em 1.5em #f8fcfb,7.5em 1.5em #f8fcfb,8em 1.5em #f8fcfb,8.5em 1.5em #f8fcfb,9em 1.5em #f8fcfb,9.5em 1.5em #f8fcfb,0.5em 2em #f8fcfb,1em 2em #f8fcfb,1.5em 2em #f8fcfb,2em 2em #f8fcfb,2.5em 2em #f8fcfb,3em 2em #f8fcfb,3.5em 2em #f8fcfb,4em 2em #f8fcfb,4.5em 2em #ae1c29,5em 2em #ae1c29,5.5em 2em #ae1c29,6em 2em #f8fcfb,6.5em 2em #f8fcfb,7em 2em #f8fcfb,7.5em 2em #f8fcfb,8em 2em #f8fcfb,8.5em 2em #f8fcfb,9em 2em #f8fcfb,9.5em 2em #f8fcfb,0.5em 2.5em #f8fcfb,1em 2.5em #f8fcfb,1.5em 2.5em #f8fcfb,2em 2.5em #f8fcfb,2.5em 2.5em #f8fcfb,3em 2.5em #f8fcfb,3.5em 2.5em #3190cb,4em 2.5em #3190cb,4.5em 2.5em #ae1c29,5em 2.5em #ae1c29,5.5em 2.5em #ae1c29,6em 2.5em #3190cb,6.5em 2.5em #3190cb,7em 2.5em #f8fcfb,7.5em 2.5em #f8fcfb,8em 2.5em #f8fcfb,8.5em 2.5em #f8fcfb,9em 2.5em #f8fcfb,9.5em 2.5em #f8fcfb,0.5em 3em #f8fcfb,1em 3em #f8fcfb,1.5em 3em #f8fcfb,2em 3em #f8fcfb,2.5em 3em #f8fcfb,3em 3em #3190cb,3.5em 3em #3190cb,4em 3em #3190cb,4.5em 3em #ae1c29,5em 3em #ae1c29,5.5em 3em #ae1c29,6em 3em #3190cb,6.5em 3em #3190cb,7em 3em #3190cb,7.5em 3em #f8fcfb,8em 3em #f8fcfb,8.5em 3em #f8fcfb,9em 3em #f8fcfb,9.5em 3em #f8fcfb,0.5em 3.5em #f8fcfb,1em 3.5em #f8fcfb,1.5em 3.5em #f8fcfb,2em 3.5em #f8fcfb,2.5em 3.5em #3190cb,3em 3.5em #3190cb,3.5em 3.5em #3190cb,4em 3.5em #3190cb,4.5em 3.5em #ae1c29,5em 3.5em #ae1c29,5.5em 3.5em #ae1c29,6em 3.5em #3190cb,6.5em 3.5em #3190cb,7em 3.5em #3190cb,7.5em 3.5em #3190cb,8em 3.5em #f8fcfb,8.5em 3.5em #f8fcfb,9em 3.5em #f8fcfb,9.5em 3.5em #f8fcfb,0.5em 4em #f8fcfb,1em 4em #f8fcfb,1.5em 4em #f8fcfb,2em 4em #3190cb,2.5em 4em #3190cb,3em 4em #3190cb,3.5em 4em #3190cb,4em 4em #3190cb,4.5em 4em #ae1c29,5em 4em #ae1c29,5.5em 4em #ae1c29,6em 4em #3190cb,6.5em 4em #3190cb,7em 4em #3190cb,7.5em 4em #3190cb,8em 4em #3190cb,8.5em 4em #f8fcfb,9em 4em #f8fcfb,9.5em 4em #f8fcfb,0.5em 4.5em #f8fcfb,1em 4.5em #f8fcfb,1.5em 4.5em #f8fcfb,2em 4.5em #3190cb,2.5em 4.5em #3190cb,3em 4.5em #3190cb,3.5em 4.5em #3190cb,4em 4.5em #3190cb,4.5em 4.5em #ae1c29,5em 4.5em #ae1c29,5.5em 4.5em #ae1c29,6em 4.5em #3190cb,6.5em 4.5em #3190cb,7em 4.5em #3190cb,7.5em 4.5em #3190cb,8em 4.5em #3190cb,8.5em 4.5em #f8fcfb,9em 4.5em #f8fcfb,9.5em 4.5em #f8fcfb,0.5em 5em #f8fcfb,1em 5em #f8fcfb,1.5em 5em #f8fcfb,2em 5em #3190cb,2.5em 5em #3190cb,3em 5em #3190cb,3.5em 5em #3190cb,4em 5em #3190cb,4.5em 5em #ae1c29,5em 5em #ae1c29,5.5em 5em #ae1c29,6em 5em #3190cb,6.5em 5em #3190cb,7em 5em #3190cb,7.5em 5em #3190cb,8em 5em #3190cb,8.5em 5em #f8fcfb,9em 5em #f8fcfb,9.5em 5em #f8fcfb,0.5em 5.5em #f8fcfb,1em 5.5em #f8fcfb,1.5em 5.5em #f8fcfb,2em 5.5em #3190cb,2.5em 5.5em #3190cb,3em 5.5em #3190cb,3.5em 5.5em #3190cb,4em 5.5em #3190cb,4.5em 5.5em #ae1c29,5em 5.5em #ae1c29,5.5em 5.5em #ae1c29,6em 5.5em #3190cb,6.5em 5.5em #3190cb,7em 5.5em #3190cb,7.5em 5.5em #3190cb,8em 5.5em #3190cb,8.5em 5.5em #f8fcfb,9em 5.5em #f8fcfb,9.5em 5.5em #f8fcfb,0.5em 6em #f8fcfb,1em 6em #f8fcfb,1.5em 6em #f8fcfb,2em 6em #3190cb,2.5em 6em #3190cb,3em 6em #3190cb,3.5em 6em #3190cb,4em 6em #3190cb,4.5em 6em #3190cb,5em 6em #3190cb,5.5em 6em #3190cb,6em 6em #3190cb,6.5em 6em #3190cb,7em 6em #3190cb,7.5em 6em #3190cb,8em 6em #3190cb,8.5em 6em #f8fcfb,9em 6em #f8fcfb,9.5em 6em #f8fcfb,0.5em 6.5em #f8fcfb,1em 6.5em #f8fcfb,1.5em 6.5em #3190cb,2em 6.5em #3190cb,2.5em 6.5em #3190cb,3em 6.5em #3190cb,3.5em 6.5em #3190cb,4em 6.5em #3190cb,4.5em 6.5em #3190cb,5em 6.5em #3190cb,5.5em 6.5em #3190cb,6em 6.5em #3190cb,6.5em 6.5em #3190cb,7em 6.5em #3190cb,7.5em 6.5em #3190cb,8em 6.5em #3190cb,8.5em 6.5em #3190cb,9em 6.5em #f8fcfb,9.5em 6.5em #f8fcfb,0.5em 7em #f8fcfb,1em 7em #f8fcfb,1.5em 7em #3190cb,2em 7em #3190cb,2.5em 7em #3190cb,3em 7em #333,3.5em 7em #333,4em 7em #333,4.5em 7em #3190cb,5em 7em #3190cb,5.5em 7em #3190cb,6em 7em #333,6.5em 7em #333,7em 7em #333,7.5em 7em #3190cb,8em 7em #3190cb,8.5em 7em #3190cb,9em 7em #f8fcfb,9.5em 7em #f8fcfb,0.5em 7.5em #f8fcfb,1em 7.5em #f8fcfb,1.5em 7.5em #3190cb,2em 7.5em #3190cb,2.5em 7.5em #3190cb,3em 7.5em white,3.5em 7.5em #ae1c29,4em 7.5em white,4.5em 7.5em #3190cb,5em 7.5em #3190cb,5.5em 7.5em #3190cb,6em 7.5em white,6.5em 7.5em #ae1c29,7em 7.5em white,7.5em 7.5em #3190cb,8em 7.5em #3190cb,8.5em 7.5em #3190cb,9em 7.5em #f8fcfb,9.5em 7.5em #f8fcfb,0.5em 8em #f8fcfb,1em 8em #f8fcfb,1.5em 8em #f8fcfb,2em 8em #3190cb,2.5em 8em #3190cb,3em 8em #3190cb,3.5em 8em #3190cb,4em 8em #3190cb,4.5em 8em #3190cb,5em 8em #3190cb,5.5em 8em #3190cb,6em 8em #3190cb,6.5em 8em #3190cb,7em 8em #3190cb,7.5em 8em #3190cb,8em 8em #3190cb,8.5em 8em #f8fcfb,9em 8em #f8fcfb,9.5em 8em #f8fcfb,0.5em 8.5em #f8fcfb,1em 8.5em #f8fcfb,1.5em 8.5em #f8fcfb,2em 8.5em #3190cb,2.5em 8.5em #3190cb,3em 8.5em #3190cb,3.5em 8.5em #3190cb,4em 8.5em #3190cb,4.5em 8.5em #3190cb,5em 8.5em #3190cb,5.5em 8.5em #3190cb,6em 8.5em #3190cb,6.5em 8.5em #3190cb,7em 8.5em #3190cb,7.5em 8.5em #3190cb,8em 8.5em #3190cb,8.5em 8.5em #f8fcfb,9em 8.5em #f8fcfb,9.5em 8.5em #f8fcfb,0.5em 9em #f8fcfb,1em 9em #f8fcfb,1.5em 9em #f8fcfb,2em 9em #f8fcfb,2.5em 9em #333,3em 9em #3190cb,3.5em 9em #3190cb,4em 9em #3190cb,4.5em 9em #3190cb,5em 9em #3190cb,5.5em 9em #3190cb,6em 9em #3190cb,6.5em 9em #3190cb,7em 9em #3190cb,7.5em 9em #333,8em 9em #f8fcfb,8.5em 9em #f8fcfb,9em 9em #f8fcfb,9.5em 9em #f8fcfb,0.5em 9.5em #f8fcfb,1em 9.5em #f8fcfb,1.5em 9.5em #f8fcfb,2em 9.5em #8a0000,2.5em 9.5em #8a0000,3em 9.5em #333,3.5em 9.5em #3190cb,4em 9.5em #3190cb,4.5em 9.5em skyblue,5em 9.5em skyblue,5.5em 9.5em skyblue,6em 9.5em #3190cb,6.5em 9.5em #3190cb,7em 9.5em #333,7.5em 9.5em #8a0000,8em 9.5em #8a0000,8.5em 9.5em #f8fcfb,9em 9.5em #f8fcfb,9.5em 9.5em #f8fcfb,0.5em 10em #f8fcfb,1em 10em #f8fcfb,1.5em 10em #6e0000,2em 10em #8a0000,2.5em 10em #8a0000,3em 10em #8a0000,3.5em 10em #545454,4em 10em #3190cb,4.5em 10em #545454,5em 10em #545454,5.5em 10em #545454,6em 10em #3190cb,6.5em 10em #545454,7em 10em #8a0000,7.5em 10em #8a0000,8em 10em #8a0000,8.5em 10em #6e0000,9em 10em #f8fcfb,9.5em 10em #f8fcfb,0.5em 10.5em #f8fcfb,1em 10.5em #6e0000,1.5em 10.5em #6e0000,2em 10.5em #8a0000,2.5em 10.5em #ffde6a,3em 10.5em #8a0000,3.5em 10.5em #8a0000,4em 10.5em #545454,4.5em 10.5em #545454,5em 10.5em #545454,5.5em 10.5em #545454,6em 10.5em #545454,6.5em 10.5em #8a0000,7em 10.5em #8a0000,7.5em 10.5em #8a0000,8em 10.5em #8a0000,8.5em 10.5em #6e0000,9em 10.5em #6e0000,9.5em 10.5em #f8fcfb,0.5em 11em #f8fcfb,1em 11em #6e0000,1.5em 11em #6e0000,2em 11em #8a0000,2.5em 11em #ffde6a,3em 11em #ffde6a,3.5em 11em #8a0000,4em 11em #6e0000,4.5em 11em grey,5em 11em grey,5.5em 11em grey,6em 11em #6e0000,6.5em 11em #8a0000,7em 11em orange,7.5em 11em orange,8em 11em #8a0000,8.5em 11em #6e0000,9em 11em #6e0000,9.5em 11em #f8fcfb,0.5em 11.5em #6e0000,1em 11.5em #6e0000,1.5em 11.5em #6e0000,2em 11.5em #8a0000,2.5em 11.5em #ffde6a,3em 11.5em #ffde6a,3.5em 11.5em #8a0000,4em 11.5em #6e0000,4.5em 11.5em #6e0000,5em 11.5em #6e0000,5.5em 11.5em #6e0000,6em 11.5em #6e0000,6.5em 11.5em #8a0000,7em 11.5em orange,7.5em 11.5em orange,8em 11.5em #8a0000,8.5em 11.5em #6e0000,9em 11.5em #6e0000,9.5em 11.5em #6e0000,0.5em 12em #6e0000,1em 12em #6e0000,1.5em 12em #6e0000,2em 12em #8a0000,2.5em 12em #8a0000,3em 12em #ffde6a,3.5em 12em #8a0000,4em 12em #6e0000,4.5em 12em #6e0000,5em 12em #6e0000,5.5em 12em #6e0000,6em 12em #6e0000,6.5em 12em #8a0000,7em 12em #8a0000,7.5em 12em #8a0000,8em 12em #8a0000,8.5em 12em #6e0000,9em 12em #6e0000,9.5em 12em #6e0000,0.5em 12.5em #6e0000,1em 12.5em #6e0000,1.5em 12.5em #6e0000,2em 12.5em #8a0000,2.5em 12.5em #8a0000,3em 12.5em #8a0000,3.5em 12.5em #8a0000,4em 12.5em #333,4.5em 12.5em grey,5em 12.5em #333,5.5em 12.5em #333,6em 12.5em #333,6.5em 12.5em #8a0000,7em 12.5em #8a0000,7.5em 12.5em #8a0000,8em 12.5em #8a0000,8.5em 12.5em #6e0000,9em 12.5em #6e0000,9.5em 12.5em #6e0000,0.5em 13em #6e0000,1em 13em #6e0000,1.5em 13em #6e0000,2em 13em #6e0000,2.5em 13em #8a0000,3em 13em #8a0000,3.5em 13em #8a0000,4em 13em #6e0000,4.5em 13em #6e0000,5em 13em #6e0000,5.5em 13em #6e0000,6em 13em #6e0000,6.5em 13em #8a0000,7em 13em #8a0000,7.5em 13em #8a0000,8em 13em #6e0000,8.5em 13em #6e0000,9em 13em #6e0000,9.5em 13em #6e0000,0.5em 13.5em #6e0000,1em 13.5em #6e0000,1.5em 13.5em #6e0000,2em 13.5em #6e0000,2.5em 13.5em #8a0000,3em 13.5em #8a0000,3.5em 13.5em #8a0000,4em 13.5em #6e0000,4.5em 13.5em #6e0000,5em 13.5em #6e0000,5.5em 13.5em #6e0000,6em 13.5em #6e0000,6.5em 13.5em #8a0000,7em 13.5em #8a0000,7.5em 13.5em #8a0000,8em 13.5em #6e0000,8.5em 13.5em #6e0000,9em 13.5em #6e0000,9.5em 13.5em grey,0.5em 14em #6e0000,1em 14em #6e0000,1.5em 14em #6e0000,2em 14em #6e0000,2.5em 14em #8a0000,3em 14em #8a0000,3.5em 14em #8a0000,4em 14em #6e0000,4.5em 14em #6e0000,5em 14em #6e0000,5.5em 14em #6e0000,6em 14em #6e0000,6.5em 14em #8a0000,7em 14em #8a0000,7.5em 14em #8a0000,8em 14em #6e0000,8.5em 14em #6e0000,9em 14em #6e0000,9.5em 14em grey,0.5em 14.5em #6e0000,1em 14.5em #6e0000,1.5em 14.5em #6e0000,2em 14.5em #6e0000,2.5em 14.5em #8a0000,3em 14.5em #8a0000,3.5em 14.5em #ffde6a,4em 14.5em #6e0000,4.5em 14.5em #6e0000,5em 14.5em #6e0000,5.5em 14.5em #6e0000,6em 14.5em #6e0000,6.5em 14.5em #8a0000,7em 14.5em #8a0000,7.5em 14.5em #8a0000,8em 14.5em #6e0000,8.5em 14.5em #6e0000,9em 14.5em #6e0000,9.5em 14.5em grey,0.5em 15em #6e0000,1em 15em #6e0000,1.5em 15em #6e0000,2em 15em #6e0000,2.5em 15em #8a0000,3em 15em #ffde6a,3.5em 15em #ffde6a,4em 15em #ffde6a,4.5em 15em #6e0000,5em 15em #6e0000,5.5em 15em #6e0000,6em 15em #6e0000,6.5em 15em #8a0000,7em 15em #8a0000,7.5em 15em #8a0000,8em 15em #6e0000,8.5em 15em #6e0000,9em 15em #6e0000,9.5em 15em grey,0.5em 15.5em #3190cb,1em 15.5em #3190cb,1.5em 15.5em #3190cb,2em 15.5em #3190cb,2.5em 15.5em #8a0000,3em 15.5em #ffde6a,3.5em 15.5em #ffde6a,4em 15.5em #ffde6a,4.5em 15.5em #333,5em 15.5em grey,5.5em 15.5em #333,6em 15.5em #333,6.5em 15.5em #8a0000,7em 15.5em #8a0000,7.5em 15.5em #8a0000,8em 15.5em #3190cb,8.5em 15.5em #3190cb,9em 15.5em #3190cb,9.5em 15.5em #3190cb,0.5em 16em #3190cb,1em 16em #3190cb,1.5em 16em #3190cb,2em 16em #8a0000,2.5em 16em #8a0000,3em 16em #8a0000,3.5em 16em #ffde6a,4em 16em #6e0000,4.5em 16em #6e0000,5em 16em #6e0000,5.5em 16em #6e0000,6em 16em #6e0000,6.5em 16em #8a0000,7em 16em #8a0000,7.5em 16em #8a0000,8em 16em #8a0000,8.5em 16em #3190cb,9em 16em #3190cb,9.5em 16em #3190cb,0.5em 16.5em #f8fcfb,1em 16.5em #3190cb,1.5em 16.5em #f8fcfb,2em 16.5em #8a0000,2.5em 16.5em #8a0000,3em 16.5em grey,3.5em 16.5em #ffde6a,4em 16.5em #6e0000,4.5em 16.5em #6e0000,5em 16.5em #6e0000,5.5em 16.5em #6e0000,6em 16.5em #6e0000,6.5em 16.5em #8a0000,7em 16.5em #8a0000,7.5em 16.5em #8a0000,8em 16.5em #8a0000,8.5em 16.5em #f8fcfb,9em 16.5em #3190cb,9.5em 16.5em #f8fcfb,0.5em 17em #f8fcfb,1em 17em #f8fcfb,1.5em 17em #f8fcfb,2em 17em #8a0000,2.5em 17em #8a0000,3em 17em grey,3.5em 17em #ffde6a,4em 17em #6e0000,4.5em 17em #6e0000,5em 17em #6e0000,5.5em 17em #6e0000,6em 17em #6e0000,6.5em 17em #8a0000,7em 17em #8a0000,7.5em 17em #8a0000,8em 17em #8a0000,8.5em 17em #f8fcfb,9em 17em #f8fcfb,9.5em 17em #f8fcfb,0.5em 17.5em #f8fcfb,1em 17.5em #f8fcfb,1.5em 17.5em #f8fcfb,2em 17.5em #8a0000,2.5em 17.5em #8a0000,3em 17.5em #8a0000,3.5em 17.5em #ffde6a,4em 17.5em #6e0000,4.5em 17.5em #6e0000,5em 17.5em #3190cb,5.5em 17.5em #6e0000,6em 17.5em #6e0000,6.5em 17.5em #8a0000,7em 17.5em #8a0000,7.5em 17.5em #8a0000,8em 17.5em #8a0000,8.5em 17.5em #f8fcfb,9em 17.5em #f8fcfb,9.5em 17.5em #f8fcfb,0.5em 18em #f8fcfb,1em 18em #f8fcfb,1.5em 18em #f8fcfb,2em 18em #8a0000,2.5em 18em #8a0000,3em 18em #ffde6a,3.5em 18em #6e0000,4em 18em #ffde6a,4.5em 18em #6e0000,5em 18em #3190cb,5.5em 18em #6e0000,6em 18em #6e0000,6.5em 18em #8a0000,7em 18em #8a0000,7.5em 18em #8a0000,8em 18em #8a0000,8.5em 18em #f8fcfb,9em 18em #f8fcfb,9.5em 18em #f8fcfb,0.5em 18.5em #f8fcfb,1em 18.5em #f8fcfb,1.5em 18.5em #f8fcfb,2em 18.5em #8a0000,2.5em 18.5em #8a0000,3em 18.5em #8a0000,3.5em 18.5em #8a0000,4em 18.5em #6e0000,4.5em 18.5em #6e0000,5em 18.5em #3190cb,5.5em 18.5em #6e0000,6em 18.5em #6e0000,6.5em 18.5em #8a0000,7em 18.5em #8a0000,7.5em 18.5em #8a0000,8em 18.5em #8a0000,8.5em 18.5em #f8fcfb,9em 18.5em #f8fcfb,9.5em 18.5em #f8fcfb,0.5em 19em #f8fcfb,1em 19em #f8fcfb,1.5em 19em #f8fcfb,2em 19em #8a0000,2.5em 19em #8a0000,3em 19em #8a0000,3.5em 19em #8a0000,4em 19em #333,4.5em 19em #333,5em 19em #3190cb,5.5em 19em #333,6em 19em #333,6.5em 19em #8a0000,7em 19em #8a0000,7.5em 19em #8a0000,8em 19em #8a0000,8.5em 19em #f8fcfb,9em 19em #f8fcfb,9.5em 19em #f8fcfb,0.5em 19.5em #f8fcfb,1em 19.5em #f8fcfb,1.5em 19.5em #f8fcfb,2em 19.5em #f8fcfb,2.5em 19.5em #333,3em 19.5em #333,3.5em 19.5em #333,4em 19.5em #333,4.5em 19.5em #333,5em 19.5em #f8fcfb,5.5em 19.5em #333,6em 19.5em #333,6.5em 19.5em #333,7em 19.5em #333,7.5em 19.5em #333,8em 19.5em #f8fcfb,8.5em 19.5em #f8fcfb,9em 19.5em #f8fcfb,9.5em 19.5em #f8fcfb,0.5em 20em #f8fcfb,1em 20em #f8fcfb,1.5em 20em #f8fcfb,2em 20em #333,2.5em 20em #333,3em 20em #333,3.5em 20em #333,4em 20em #333,4.5em 20em #333,5em 20em #f8fcfb,5.5em 20em #333,6em 20em #333,6.5em 20em #333,7em 20em #333,7.5em 20em #333,8em 20em #333,8.5em 20em #f8fcfb,9em 20em #f8fcfb,9.5em 20em #f8fcfb,0.5em 20.5em #f8fcfb,1em 20.5em #f8fcfb,1.5em 20.5em #f8fcfb,2em 20.5em #333,2.5em 20.5em #333,3em 20.5em #333,3.5em 20.5em #333,4em 20.5em #333,4.5em 20.5em #333,5em 20.5em #f8fcfb,5.5em 20.5em #333,6em 20.5em #333,6.5em 20.5em #333,7em 20.5em #333,7.5em 20.5em #333,8em 20.5em #333,8.5em 20.5em #f8fcfb,9em 20.5em #f8fcfb,9.5em 20.5em #f8fcfb;
+  }
+  
+  #main-container {
+    background: #6892d5 !important;
+  }
+  
+  header {
+    background: #79d1c3;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #dot {
+    background: #c9fdd7;
+    display: inline-block;
+  }
+  
+  #description {
+    color: #eee;
+  }
+  
+  #sidebar {
+    background: #79d1c3;
+    color: white;
+  }
+  
+  footer {
+    background: #79d1c3;
+  }
+  
+  #content {
+    background: #c9fdd7;
+    border-bottom: 15px solid #f8fcfb;
+  }
+  
+  #right {
+    background: #f8fcfb;
+  }
+  
+  #site-name-container {
+    color: #fff !important;
+  }
+  
+  #description {
+    color: #ae1c29;
+  }
+  
+  #character-alphabet {
+    background: #eeeeee;
+    color: #ff1f8f;
+  }
+  
+  #memorable-quote {
+    color: #311580;
+  }
+  
+  #association {
+    background: #f8fcfb;
+  }
+  
+  #design-curve-character {
+    background: #79d1c3;
+  }
+  
+  .blockquote::after {
+    border-bottom: 3px solid #ff1f8f;
+  }
+  
+  .pop {
+    -webkit-text-stroke-color: #3190cb;
+    text-shadow: 8px 8px #ff1f8f;
+  }
+  
+  .heading--stroke {
+    -webkit-text-stroke-color: #0d1b1e;
+  }
+  
+  .heading--shadow {
+    text-shadow: 6px 6px #FF5252;
+  }
+  
+  .underline {
+    background-image: linear-gradient(to right, #fa709a 0%, #C9FDD7 100%);
+  }
+  
+  .heart:after {
+    box-shadow: 0.2em 0.2em transparent, 0.4em 0.2em transparent, 0.6em 0.2em pink, 0.8em 0.2em pink, 1em 0.2em pink, 1.2em 0.2em transparent, 1.4em 0.2em transparent, 1.6em 0.2em transparent, 1.8em 0.2em pink, 2em 0.2em pink, 2.2em 0.2em pink, 2.4em 0.2em transparent, 2.6em 0.2em transparent, 0.2em 0.4em transparent, 0.4em 0.4em pink, 0.6em 0.4em #bf0024, 0.8em 0.4em #bf0024, 1em 0.4em #bf0024, 1.2em 0.4em pink, 1.4em 0.4em transparent, 1.6em 0.4em pink, 1.8em 0.4em maroon, 2em 0.4em maroon, 2.2em 0.4em maroon, 2.4em 0.4em pink, 2.6em 0.4em transparent, 0.2em 0.6em pink, 0.4em 0.6em #bf0024, 0.6em 0.6em #bf0024, 0.8em 0.6em white, 1em 0.6em #bf0024, 1.2em 0.6em #bf0024, 1.4em 0.6em pink, 1.6em 0.6em maroon, 1.8em 0.6em maroon, 2em 0.6em maroon, 2.2em 0.6em maroon, 2.4em 0.6em maroon, 2.6em 0.6em pink, 0.2em 0.8em pink, 0.4em 0.8em #bf0024, 0.6em 0.8em white, 0.8em 0.8em white, 1em 0.8em #bf0024, 1.2em 0.8em #bf0024, 1.4em 0.8em #bf0024, 1.6em 0.8em #bf0024, 1.8em 0.8em #bf0024, 2em 0.8em #bf0024, 2.2em 0.8em #bf0024, 2.4em 0.8em maroon, 2.6em 0.8em pink, 0.2em 1em pink, 0.4em 1em #bf0024, 0.6em 1em white, 0.8em 1em #bf0024, 1em 1em #bf0024, 1.2em 1em #bf0024, 1.4em 1em #bf0024, 1.6em 1em #bf0024, 1.8em 1em #bf0024, 2em 1em #bf0024, 2.2em 1em maroon, 2.4em 1em maroon, 2.6em 1em pink, 0.2em 1.2em transparent, 0.4em 1.2em pink, 0.6em 1.2em #bf0024, 0.8em 1.2em #bf0024, 1em 1.2em #bf0024, 1.2em 1.2em #bf0024, 1.4em 1.2em #bf0024, 1.6em 1.2em #bf0024, 1.8em 1.2em #bf0024, 2em 1.2em maroon, 2.2em 1.2em maroon, 2.4em 1.2em pink, 2.6em 1.2em transparent, 0.2em 1.4em transparent, 0.4em 1.4em pink, 0.6em 1.4em #bf0024, 0.8em 1.4em #bf0024, 1em 1.4em #bf0024, 1.2em 1.4em #bf0024, 1.4em 1.4em #bf0024, 1.6em 1.4em #bf0024, 1.8em 1.4em #bf0024, 2em 1.4em maroon, 2.2em 1.4em maroon, 2.4em 1.4em pink, 2.6em 1.4em transparent, 0.2em 1.6em transparent, 0.4em 1.6em transparent, 0.6em 1.6em pink, 0.8em 1.6em #bf0024, 1em 1.6em #bf0024, 1.2em 1.6em #bf0024, 1.4em 1.6em #bf0024, 1.6em 1.6em #bf0024, 1.8em 1.6em maroon, 2em 1.6em maroon, 2.2em 1.6em pink, 2.4em 1.6em transparent, 2.6em 1.6em transparent, 0.2em 1.8em transparent, 0.4em 1.8em transparent, 0.6em 1.8em transparent, 0.8em 1.8em pink, 1em 1.8em #bf0024, 1.2em 1.8em #bf0024, 1.4em 1.8em #bf0024, 1.6em 1.8em #bf0024, 1.8em 1.8em maroon, 2em 1.8em pink, 2.2em 1.8em transparent, 2.4em 1.8em transparent, 2.6em 1.8em transparent, 0.2em 2em transparent, 0.4em 2em transparent, 0.6em 2em transparent, 0.8em 2em transparent, 1em 2em pink, 1.2em 2em #bf0024, 1.4em 2em #bf0024, 1.6em 2em maroon, 1.8em 2em pink, 2em 2em transparent, 2.2em 2em transparent, 2.4em 2em transparent, 2.6em 2em transparent, 0.2em 2.2em transparent, 0.4em 2.2em transparent, 0.6em 2.2em transparent, 0.8em 2.2em transparent, 1em 2.2em transparent, 1.2em 2.2em pink, 1.4em 2.2em #bf0024, 1.6em 2.2em pink, 1.8em 2.2em transparent, 2em 2.2em transparent, 2.2em 2.2em transparent, 2.4em 2.2em transparent, 2.6em 2.2em transparent, 0.2em 2.4em transparent, 0.4em 2.4em transparent, 0.6em 2.4em transparent, 0.8em 2.4em transparent, 1em 2.4em transparent, 1.2em 2.4em transparent, 1.4em 2.4em pink, 1.6em 2.4em transparent, 1.8em 2.4em transparent, 2em 2.4em transparent, 2.2em 2.4em transparent, 2.4em 2.4em transparent, 2.6em 2.4em transparent;
+  }
+  
+  #made, #by {
+    color: #fff;
+  }
+  
+  .arrow.-color.-left::before, .arrow.-color.-right::before {
+    box-shadow: 2px 2px 0 #bdbdbd, 3px 2px 0 #bdbdbd, 2px 3px 0 #bdbdbd, 3px 3px 0 #bdbdbd !important;
+  }
+  .arrow.-color.-left::after, .arrow.-color.-right::after {
+    color: #bdbdbd !important;
+  }
+  
+  @media screen and (min-width: 340px) and (max-width: 431px) {
+    .pop {
+      text-shadow: 5px 5px #ff1f8f !important;
+    }
+  
+    .heading--shadow {
+      text-shadow: 4px 4px #C4A8FF !important;
+    }
+  }
+  @media screen and (min-width: 981px) and (max-width: 1200px) {
+    .heading--shadow {
+      text-shadow: 4px 4px #C4A8FF !important;
+    }
+  }
